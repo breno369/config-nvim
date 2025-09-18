@@ -1,0 +1,23 @@
+{
+    "languageserver": {
+        "intelephense": {
+            "command": "intelephense",
+            "args": ["--stdio"],
+            "filetypes": ["php"],
+            "initializationOptions": {
+                "storagePath": "/tmp/intelephense"
+            }
+        },
+        "settings": {
+            "intelephense": {
+                "environment": {
+                    "includePaths": [
+                        "/media/ecode/HD2/clickumu_wp/wordpress/wp-includes",
+                        "/media/ecode/HD2/clickumu_wp/wordpress/wp-admin"
+                    ]   
+                
+                }
+            }
+        }
+    }
+}
